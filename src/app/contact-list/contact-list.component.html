@@ -1,0 +1,8 @@
+<ul *ngIf="contactList$ | async as contactsList">
+  <li *ngFor="let contact of contactsList">
+    <app-contact [contact]="contact" (deleteChange)="onDeleteContact($event)"></app-contact>
+  </li>
+
+  <button [routerLink]="['/contacts', -1]">New</button>
+</ul>
+<router-outlet></router-outlet>

@@ -1,0 +1,29 @@
+nav.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: aquamarine;
+  height: 60px;
+  width: 100%;
+
+  a {
+    padding: 0 10px;
+    cursor: pointer;
+    min-width: 80px;
+    text-align: center;
+    line-height: 60px;
+
+
+    &:hover {
+      background-color: darken(aquamarine, 50);
+      color: white;
+    }
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}

@@ -26,7 +26,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+            ]
           },
           "configurations": {
             "production": {
@@ -121,5 +122,5 @@
         }
       }
     }},
-  "defaultProject": "my-app"
+  "defaultProject": "my-app",
 }

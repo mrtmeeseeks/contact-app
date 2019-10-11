@@ -1,0 +1,16 @@
+<form [formGroup]="form">
+  <div>
+    <label>First name</label>
+    <input name="firstName" formControlName="firstName">
+  </div>
+  <div>
+    <label>Last name</label>
+    <input name="lastName" formControlName="lastName">
+  </div>
+  <div>
+    <label>Age</label>
+    <input name="age" formControlName="age">
+  </div>
+
+  <button type="submit" (click)="save()">Save</button>
+</form>
